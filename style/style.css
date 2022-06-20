@@ -50,7 +50,6 @@ body {
 .nav-list__li > a {
     font-family: 'Roboto';
     font-weight: 500;
-    font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
     color: var(--title-color);
@@ -63,7 +62,6 @@ body {
 .info-mail {
     font-family: 'Roboto';
     font-weight: 500;
-    font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
     color: var(--text-color);
@@ -136,7 +134,6 @@ body {
 .benefits-list__info > h3 {
     font-family: 'Roboto';
     font-weight: 700;
-    font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -144,8 +141,6 @@ body {
 }
 .benefits-list__info > p {
     font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 14px;
     line-height: 171%;
     letter-spacing: 0.03em;
     color: var(--text-color);
@@ -202,7 +197,6 @@ body {
 }
 .our-item > p {
     font-family: 'Roboto';
-    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
@@ -224,8 +218,6 @@ body {
 }
 .address-link > a {
     font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 14px;
     line-height: 171%;
     letter-spacing: 0.03em;
     padding-bottom: 9px;
@@ -233,8 +225,6 @@ body {
 }
 .address-mail > a {
     font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 14px;
     line-height: 171%;
     letter-spacing: 0.03em;
     color: var(--white-text-color);
@@ -245,8 +235,6 @@ body {
 }
 .address-tel > a {
     font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 14px;
     line-height: 171%;
     letter-spacing: 0.03em;
     color: var(--white-text-color);
