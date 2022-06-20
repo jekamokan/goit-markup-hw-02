@@ -9,6 +9,7 @@
 body {
     font-family: 'Roboto';
     font-size: 14px;
+    color: var(--text-color);
 }
 
 .container {
@@ -90,7 +91,7 @@ body {
     font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 136%;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -104,6 +105,7 @@ body {
     border-radius: 4px;
     font-family: 'Roboto';
     font-weight: 700;
+    line-height: 188%;
     font-size: 16px;
     letter-spacing: 0.06em;
     cursor: pointer;
@@ -144,7 +146,7 @@ body {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 171%;
     letter-spacing: 0.03em;
     color: var(--text-color);
 }
@@ -224,7 +226,7 @@ body {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 171%;
     letter-spacing: 0.03em;
     padding-bottom: 9px;
     color: var(--white-text-color);
@@ -233,7 +235,7 @@ body {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 171%;
     letter-spacing: 0.03em;
     color: var(--white-text-color);
     opacity: 0.6;
@@ -245,7 +247,7 @@ body {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 171%;
     letter-spacing: 0.03em;
     color: var(--white-text-color);
     opacity: 0.6;
