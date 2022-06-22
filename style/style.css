@@ -298,3 +298,124 @@ body {
     color: var(--white-text-color);
     box-shadow: 0px 10px 13px -7px rgb(120, 120, 120, 0.4);
 }
+
+@media (max-width:1200px) {
+    .container {
+        margin: 0px 20px;
+    }
+    .work-item > img {
+        width: 340px;
+    }
+    .work-list {
+        justify-content: space-around;
+        gap: 0px;
+    }
+    .our-list {
+        gap: 18px;
+    }
+    .team-size {
+        padding: 70px 0px 45px 0px;
+    }
+}
+@media (max-width:940px) {
+    .info-tel {
+        margin-left: 10px;
+    }
+    .nav-list {
+        margin-left: -48px;
+        gap: 20px;
+        font-size: 12px;
+    }
+    .info {
+        font-size: 12px;
+    }
+    .work-item > img {
+        width: 275px;
+    }
+    .work-size {
+        margin-bottom: 40px;
+    }
+    .section-title {
+        font-size: 34px;
+    }
+    .our-list {
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 60px;
+    }
+    .our-item {
+        margin-bottom: 45px;
+    }
+}
+@media (max-width:768px) {
+    .hero-title {
+        font-size: 40px;
+    }
+    .benefits-list__info {
+        margin: 50px 0px;
+    }
+    .work-item > img {
+        width: 225px;
+    }
+    .team-size {
+        padding: 35px 0px 60px 0px;
+    }
+    .palitra {
+        justify-content: center;
+    }
+}
+@media (max-width:480px) {
+    .nav-list {
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+    }
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+    .info-mail {
+        margin: 0px 0px 5px 15px;
+    }
+    .hero {
+        padding: 100px 0px;
+    }
+    .hero-title {
+        font-size: 33px;
+}
+    .hero-btn {
+        width: 165px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .benefits-list {
+        flex-wrap: wrap;
+    }
+    .benefits-list__info {
+        margin: 30px 0px;
+        text-align: center;
+    }
+    .work-list {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .work-item > img {
+        width: 300px;
+    }
+}
+@media(max-width:415) {
+    .nav-list {
+        margin-left: -65px;
+    }
+    .hero {
+        padding: 85px 0px;
+    }
+}
+@media (max-width:376px) {
+    .nav-list {
+        margin-left: -85px;
+    }
+    .hero {
+        padding: 85px 0px;
+    }
+}
