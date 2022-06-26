@@ -16,6 +16,9 @@ body {
     background-color: var(--white-text-color);
 }
 
+svg {
+    cursor: pointer;
+}
 .container {
     max-width: 1170px;
     margin: 0 auto;
@@ -138,6 +141,18 @@ body {
     clip-path: inset(50%);
     margin: -1px;
 }
+.benefits-logo {
+    width: 270px;
+    height: 120px;
+    background-color:;
+    text-align: center;
+    background-color: var(--bg-list-color);
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+.benefits-logo > img {
+    padding: 25px 0px;
+}
 .benefits-list {
     display: flex;
     column-gap: 30px;
@@ -176,6 +191,23 @@ body {
 .team-size {
     padding: 94px 0px 50px 0px;
 }
+.social-icon {
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+.social-icon:hover {
+    background-color: var(--accent-color);
+}
+ .instagram:hover path {
+    fill: var(--white-text-color);
+} 
+.social-icon-link > svg {
+    padding-top: 12px;
+}
 .our-list {
     display: flex;
     gap: 30px;
@@ -202,9 +234,14 @@ body {
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 16px;
     color: var(--text-color);
 }
+.our-item__social {
+    display: flex;
+    margin-bottom: 30px;
+}
+
 .footer {
     background-color: var(--bg-footer-color);
 }
